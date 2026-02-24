@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsup src/index.ts --format cjs --dts --clean",
+    "build": "tsup src/index.ts --format cjs --dts --clean" --out-extension .js,
     "dev": "tsup src/index.ts --watch",
     "lint": "echo 'add linter later'"
   },
