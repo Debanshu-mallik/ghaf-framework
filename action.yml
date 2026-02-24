@@ -1,0 +1,12 @@
+name: "GHAF - GitHub Automation Framework"
+description: "DevOps Governance + CI + Security + Detection Framework"
+author: "Debanshu Sekhar Mallik"
+
+inputs:
+  github_token:
+    description: "GitHub token"
+    required: true
+
+runs:
+  using: "node20"
+  main: "dist/index.js"
