@@ -3,7 +3,8 @@ import { defineConfig } from "tsup"
 export default defineConfig({
   entry: ["src/index.ts"],
   format: ["cjs"],
-  dts: true,
+  target: "node20",
+  dts: false,
   clean: true,
-  external: ["@actions/core", "@actions/github"],
+  bundle: false,   // ← CRITICAL
 })
