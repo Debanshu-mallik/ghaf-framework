@@ -4,14 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsup src/index.ts --format cjs --dts --clean" --out-extension .js,
+    "build": "tsup src/index.ts --format cjs --dts --clean",
     "dev": "tsup src/index.ts --watch",
     "lint": "echo 'add linter later'"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
   "dependencies": {
     "@actions/core": "^3.0.0",
     "@actions/github": "^9.0.0",

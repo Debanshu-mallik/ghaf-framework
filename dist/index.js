@@ -23,7 +23,7 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
 ));
 
 // src/index.ts
-var core = __toESM(require("@actions/core"), 1);
+var core = __toESM(require("@actions/core"));
 async function run() {
   try {
     core.info("GHAF starting...");
