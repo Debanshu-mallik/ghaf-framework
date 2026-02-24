@@ -2,7 +2,7 @@
   "name": "ghaf-framework",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsup",
     "dev": "tsup src/index.ts --watch",
